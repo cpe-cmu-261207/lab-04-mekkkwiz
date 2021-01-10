@@ -1,3 +1,51 @@
 body {
   background-color: whitesmoke;
 }
+
+
+.summit-form {
+  display:flex;
+  padding: 10px;
+  justify-content:space-around;
+  
+}
+
+.summit_button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding-inline-start: 5px;
+  padding-inline-end: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+
+
+}.delete_button {
+  background-color: #f83c3c; /* Green */
+  border: none;
+  color: white;
+  padding-inline-start: 5px;
+  padding-inline-end: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.select {
+  padding-left: 5px;
+}
+
+.card {
+  display: flex;
+  justify-content:space-between;
+  padding: 20px 20px;
+  background: rgb(57, 155, 185);
+  border-radius: 15px;
+  margin: 30px;
+}
+
+.card select {
+  }
